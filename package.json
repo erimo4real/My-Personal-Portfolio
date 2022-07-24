@@ -2,9 +2,10 @@
   "name": "my-personal-portfolio",
   "version": "1.0.0",
   "description": "this project is to show all work done by me ",
-  "main": "server.js ",
+  "main": "backend/server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon backend/server.js"
   },
   "repository": {
     "type": "git",
